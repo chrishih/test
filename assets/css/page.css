@@ -1,0 +1,51 @@
+﻿
+/*********************列表*********************/
+section.main ul.grid {font-size: 0;}
+section.main ul.grid li {font-size: 1.6rem; display: inline-block; vertical-align: top; width: 33.33333%; padding: 3rem;}
+section.main ul.grid li a {color: #ED5959;}
+section.main ul.grid li a img {display: block; margin-bottom: 2rem;
+    /*-o-transition: all .05s linear;
+    -webkit-transition: all .05s linear;
+    -moz-transition: all .05s linear;
+    transition: all .05s linear;*/
+}
+section.main ul.grid li a:hover img {opacity: .7;}
+
+/*********************內頁*********************/
+.contentPage {margin: 0 auto; max-width: 768px;}
+.contentPage h1 {color: #ED5959; padding-right: 1.5rem; position: relative; margin-bottom: 2rem;}
+.contentPage h1:before {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -5px;
+    content: "";
+    background: #ED5959;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.gallery li {margin: 0 0 1rem;}
+
+.contentPage p {margin-bottom: 5rem; line-height: 180%;}
+.contentPage p a:hover {text-decoration: underline;}
+
+.footInfo > div {float: right;}
+.footInfo > div * {display: inline-block; vertical-align: middle;}
+.backToPrev {position: relative; text-indent: -9999rem; width: 34px; height: 34px;}
+.backToPrev a {width: 100%; height: 100%; display: block;}
+.backToPrev:before, .backToPrev:after, .backToPrev a:before, .backToPrev a:after {
+    display: block;
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background: #000000;
+    border-radius: 50%;
+    opacity: .3;
+}
+.backToPrev:before {left: 0; top: 0;}
+.backToPrev:after {right: 0; top: 0;}
+.backToPrev a:before {left: 0; bottom: 0;}
+.backToPrev a:after {right: 0; bottom: 0;}
+.date {font-size: 2rem; font-weight: 700; opacity: .3; margin-left: 2rem;}

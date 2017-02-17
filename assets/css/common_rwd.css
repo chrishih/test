@@ -1,0 +1,65 @@
+﻿@-ms-viewport,
+@viewport {
+    width: device-width;
+}
+
+@media screen and (min-width: 1680px) {
+    .bodyHeader {
+        
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1679px) {
+
+}
+
+@media screen and (max-width: 1280px) {
+    
+}
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 979px) {
+    nav.mainNav li {margin-left: 3.5rem;}
+}
+
+@media screen and (max-width: 768px) {
+    h1.logo a, strong.logo a {float: none; width: 8rem;padding-top: 5rem;margin: 0 auto; background-image: url(../images/logo_2.svg); position: absolute; left: 50%; margin-left: -4rem;}
+    #navBtn {display: block; position: absolute; top: 0; right: 0;}
+    nav.mainNav {padding-right: 0; padding-top: 30px;}
+    nav.mainNav:before {display: none;}
+    nav.mainNav ul {display: none;}
+    nav.mainNav li {float: none; margin: 1rem 0; text-align: right;}
+}
+
+@media screen and (max-width: 640px) {
+    section.main {padding: 1rem; }
+    .bodyHeader {padding: 3rem; margin-bottom: 5rem;}
+}
+
+@media screen and (max-width: 480px) {
+    section.main {padding: .5rem; }
+
+    .bodyHeader {padding: 3rem 2rem;}
+
+    footer {
+        position: static; 
+        -ms-transform: rotate(0deg); 
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+
+        padding: 2rem 1rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    
+}
+
+@media only screen and (max-device-width: 480px) {
+    
+}
+

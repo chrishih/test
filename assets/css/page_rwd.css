@@ -1,0 +1,49 @@
+﻿@-ms-viewport,
+@viewport {
+    width: device-width;
+}
+
+@media screen and (min-width: 1680px) {
+    
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1679px) {
+
+}
+
+@media screen and (max-width: 1280px) {
+    
+}
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 979px) {
+    section.main ul.grid li {width: 50%;}
+}
+
+@media screen and (max-width: 768px) {
+    
+
+    
+
+
+}
+
+@media screen and (max-width: 640px) {
+   section.main ul.grid li {width: 100%;}
+   .contentPage {width: 85vw;}
+
+   .footInfo > div {float: none;}
+   .footInfo > div * {vertical-align: middle; text-align: center; margin: 0 auto 1rem auto; display: block; font-size: 1.8rem;}
+}
+
+@media screen and (max-width: 480px) {
+    section.main ul.grid li {padding: 1rem;}
+}
+
+@media screen and (max-width: 360px) {
+    
+}
+
